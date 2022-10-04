@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.samplestickerapp">
+    <!--
+     to be able to query the whitelist status in WhatsApp 
+     https://developer.android.com/training/basics/intents/package-visibility#package-name
+    -->
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+    </queries>
 
     <application
         android:name=".StickerApplication"
@@ -13,9 +21,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".EntryActivity">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity android:name=".EntryActivity"
+             android:theme="@style/SpashTheme">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -46,10 +61,4 @@
             android:readPermission="com.whatsapp.sticker.READ" />
     </application>
 
-    <!-- to be able to query the whitelist status in WhatsApp 
-     https://developer.android.com/training/basics/intents/package-visibility#package-name -->
-    <queries>
-        <package android:name="com.whatsapp" />
-        <package android:name="com.whatsapp.w4b" />
-    </queries>
 </manifest>

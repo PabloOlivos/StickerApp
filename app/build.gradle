@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
@@ -36,7 +37,7 @@ android {
     }
     compileOptions {
         sourceCompatibility = "1.8"
-        targetCompatibility = "1.8"
+        targetCompatibility = "11"
     }
 
     packagingOptions {
