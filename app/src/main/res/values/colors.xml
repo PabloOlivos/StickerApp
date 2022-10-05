@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#117DBF</color>
-    <color name="colorPrimaryDark">#BABABA</color>
-    <color name="colorAccent">#128C7E</color>
+    <color name="colorPrimaryDark">#117DBF</color>
+    <color name="colorAccent">#F28322</color>
     <color name="inactiveAddButtonColor">#B3B3B3</color>
     <color name="infoPageBackgroundColor">#117DBF</color>
     <color name="actionBarArrowColor">@color/colorAccent</color>
