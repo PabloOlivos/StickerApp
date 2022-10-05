@@ -38,7 +38,4 @@
             <item name="android:foreground">?android:attr/selectableItemBackground</item>
         </style>
 
-        <style name="SpashTheme" parent="AppTheme">
-            <item name="android:windowBackground">@drawable/splash</item>
-        </style>
     </resources>
