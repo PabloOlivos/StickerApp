@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@drawable/campus_recortegauss"
     android:baselineAligned="false"
     android:orientation="vertical"
@@ -12,6 +11,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
+        android:id="@+id/loginImageView"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -37,7 +37,8 @@
         android:fontFamily="@font/roboto_light"
         android:text="Inicia sesión para continuar"
         android:textSize="24sp"
-        android:textColor="#FFFF"/>
+        android:textColor="#FFFF"
+        android:transitionName="iniciaSesionTextTrans"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
+            android:transitionName="emailInputTextTrans"
             android:hint="Email">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -72,6 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:hint="Contraseña"
+            android:transitionName="passwordInputTextTrans"
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -103,7 +106,8 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="70dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="Iniciar Sesión" />
+            android:text="Iniciar Sesión"
+            android:transitionName="buttonSignInTrans"/>
 
         <TextView
             android:id="@+id/nuevoUsuario"
@@ -116,7 +120,8 @@
             android:textAlignment="center"
             android:textColor="#FFFF"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:transitionName="newUserTrans"/>
 
 
     </LinearLayout>
