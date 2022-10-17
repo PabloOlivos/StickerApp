@@ -54,7 +54,7 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
         StickerPack pack = stickerPacks.get(index);
         final Context context = viewHolder.publisherView.getContext();
         viewHolder.publisherView.setText(pack.publisher);
-        viewHolder.filesizeView.setText(Formatter.formatShortFileSize(context, pack.getTotalSize()));
+
 
         viewHolder.titleView.setText(pack.name);
         viewHolder.container.setOnClickListener(view -> {
@@ -77,7 +77,7 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
             }
             viewHolder.imageRowView.addView(rowImage);
         }
-        setAddButtonAppearance(viewHolder.addButton, pack);
+
         viewHolder.animatedStickerPackIndicator.setVisibility(pack.animatedStickerPack ? View.VISIBLE : View.GONE);
     }
 
