@@ -15,6 +15,11 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class LaunchScreen extends AppCompatActivity {
 
     @Override
@@ -36,20 +41,29 @@ public class LaunchScreen extends AppCompatActivity {
         logoImageView.setAnimation(animacion1);
 
         new Handler().postDelayed(new Runnable() {
+            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+            GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LaunchScreen.this);
             @Override
             public void run() {
-                Intent intent = new Intent(LaunchScreen.this,LoginActivity.class);
-
-                Pair[] pairs = new Pair[2];
-                pairs[0] = new Pair<View, String>(logoImageView, "logoImageTrans");
-                pairs[1] = new Pair<View, String>(AzTechLogo, "textTrans");
-
-                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
-                    ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(LaunchScreen.this, pairs);
-                    startActivity(intent, options.toBundle());
-                }else{
+                if (user != null && account != null){
+                    Intent intent = new Intent(LaunchScreen.this,UserActivity.class);
                     startActivity(intent);
                     finish();
+                }else{
+                    Intent intent = new Intent(LaunchScreen.this,LoginActivity.class);
+
+                    Pair[] pairs = new Pair[2];
+                    pairs[0] = new Pair<View, String>(logoImageView, "logoImageTrans");
+                    pairs[1] = new Pair<View, String>(AzTechLogo, "textTrans");
+
+                    if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+                        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(LaunchScreen.this, pairs);
+                        startActivity(intent, options.toBundle());
+                    }else{
+                        startActivity(intent);
+                        finish();
+                    }
+
                 }
 
             }
