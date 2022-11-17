@@ -18,12 +18,7 @@ import com.stickermaker.app.editor.editimage.view.imagezoom.graphic.FastBitmapDr
 import com.stickermaker.app.editor.editimage.view.imagezoom.utils.IDisposable;
 
 
-/**
- * Base View to manage image zoom/scrool/pinch operations
- * 
- * @author alessandro
- * 
- */
+
 public abstract class ImageViewTouchBase extends ImageView implements
 		IDisposable {
 
@@ -51,13 +46,7 @@ public abstract class ImageViewTouchBase extends ImageView implements
                              int bottom);
 	};
 
-	/**
-	 * Use this to change the
-	 * {@link ImageViewTouchBase#setDisplayType(DisplayType)} of this View
-	 * 
-	 * @author alessandro
-	 * 
-	 */
+
 	public enum DisplayType {
 		/** Image is not scaled by default */
 		NONE,

@@ -79,6 +79,7 @@
                     android:layout_height="fill_parent"
                     android:gravity="center"
                     android:text="@string/save"
+                    android:fontFamily="@font/google_sans"
                     android:textColor="#25D366"
                     android:textSize="20sp" />
 

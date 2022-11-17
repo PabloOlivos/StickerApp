@@ -9,9 +9,7 @@ import com.stickermaker.app.R;
 import com.stickermaker.app.editor.editimage.ModuleConfig;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class MainMenuFragment extends BaseEditFragment implements View.OnClickListener {
     public static final int INDEX = ModuleConfig.INDEX_MAIN;
 
@@ -86,11 +84,7 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
         }
     }
 
-    /**
-     * 贴图模式
-     *
-     * @author panyi
-     */
+
     private void onStickClick() {
         activity.bottomGallery.setCurrentItem(StickerFragment.INDEX);
         activity.mStickerFragment.onShow();
@@ -98,31 +92,19 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
 
 
 
-    /**
-     * 裁剪模式
-     *
-     * @author panyi
-     */
+
     private void onCropClick() {
         activity.bottomGallery.setCurrentItem(CropFragment.INDEX);
         activity.mCropFragment.onShow();
     }
 
-    /**
-     * 图片旋转模式
-     *
-     * @author panyi
-     */
+
     private void onRotateClick() {
         activity.bottomGallery.setCurrentItem(RotateFragment.INDEX);
         activity.mRotateFragment.onShow();
     }
 
-    /**
-     * 插入文字模式
-     *
-     * @author panyi
-     */
+
     private void onAddTextClick() {
         activity.bottomGallery.setCurrentItem(AddTextFragment.INDEX);
         activity.mAddTextFragment.onShow();

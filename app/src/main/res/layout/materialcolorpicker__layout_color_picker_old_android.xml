@@ -86,10 +86,10 @@
             android:id="@+id/codHex"
             android:layout_width="70dp"
             android:layout_height="40dp"
-            android:layout_alignParentBottom="false"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="false"
             android:layout_below="@+id/blueSeekBar"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="false"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
             android:hint="2c45ff"
@@ -98,10 +98,11 @@
             android:password="false"
             android:singleLine="true"
             android:text="#123456"
+            android:fontFamily="@font/google_sans"
             android:textAllCaps="false"
             android:textColor="@color/primary_text_default_material_light"
             android:textColorHint="@color/hint_foreground_material_light"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/okColorButton"
@@ -112,7 +113,8 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:clickable="true"
-            android:text="@string/materialcolorpicker__btnSelectColor"/>
+            android:text="@string/materialcolorpicker__btnSelectColor"
+            android:fontFamily="@font/google_sans"/>
 
     </RelativeLayout>
 

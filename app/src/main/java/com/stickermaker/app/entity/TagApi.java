@@ -3,9 +3,6 @@ package com.stickermaker.app.entity;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by hsn on 05/04/2018.
- */
 
 public class TagApi {
 

@@ -235,9 +235,7 @@ public class ImageViewTouch extends ImageViewTouchBase {
         return bitmapScrollRectDelta > SCROLL_DELTA_THRESHOLD;
     }
 
-    /**
-     * @author
-     */
+
     public class GestureListener extends
             GestureDetector.SimpleOnGestureListener {
 

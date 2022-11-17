@@ -16,9 +16,6 @@ import com.stickermaker.app.editor.editimage.utils.RectUtil;
 import java.util.LinkedHashMap;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
 public class StickerView extends View {
     private static int STATUS_IDLE = 0;
     private static int STATUS_MOVE = 1;// 移动状态

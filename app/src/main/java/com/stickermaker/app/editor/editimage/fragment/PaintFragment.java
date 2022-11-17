@@ -28,9 +28,7 @@ import com.stickermaker.app.editor.editimage.view.CustomPaintView;
 import com.stickermaker.app.editor.editimage.view.PaintModeView;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class PaintFragment extends BaseEditFragment implements View.OnClickListener, ColorListAdapter.IColorListAction {
     public static final int INDEX = ModuleConfig.INDEX_PAINT;
     public static final String TAG = PaintFragment.class.getName();

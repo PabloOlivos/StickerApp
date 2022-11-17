@@ -16,8 +16,8 @@
         android:dividerHeight="19.0px"
         android:clipToPadding="false"
         android:clipChildren="false"
-        app:cardElevation="1dp"
-        android:elevation="1dp"
+        app:cardElevation="6dp"
+        android:elevation="5dp"
         android:divider="@android:color/transparent"
         app:cardPreventCornerOverlap="false"
         android:id="@+id/card_view">
@@ -85,7 +85,8 @@
                     android:textColor="@color/white"
                     android:text="SUPER HERO "
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kabelbd_normal"/>
                 <TextView
                     android:id="@+id/text_view_item_category_counter"
                     android:layout_marginRight="10dp"
@@ -94,7 +95,8 @@
                     android:textColor="@color/white"
                     android:text="more then 100 pack"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/google_sans"/>
             </LinearLayout>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

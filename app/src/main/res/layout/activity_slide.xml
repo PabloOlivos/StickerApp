@@ -59,7 +59,8 @@
                     android:gravity="center"
                     android:textSize="18dp"
                     android:textColor="@color/black"
-                    android:text="SKIP"
+                    android:text="SALTAR"
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp" />
             </LinearLayout>
@@ -81,7 +82,8 @@
                     android:gravity="center"
                     android:textSize="18dp"
                     android:textColor="@color/black"
-                    android:text="NEXT"
+                    android:text="SIGUIENTE"
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp" />
             </LinearLayout>

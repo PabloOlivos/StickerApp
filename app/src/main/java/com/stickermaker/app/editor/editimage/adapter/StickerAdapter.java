@@ -20,9 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class StickerAdapter extends RecyclerView.Adapter<ViewHolder> {
     public DisplayImageOptions imageOption = new DisplayImageOptions.Builder()
             .cacheInMemory(true).showImageOnLoading(R.drawable.yd_image_tx)
@@ -89,11 +87,7 @@ public class StickerAdapter extends RecyclerView.Adapter<ViewHolder> {
         this.notifyDataSetChanged();
     }
 
-    /**
-     * 选择贴图
-     *
-     * @author panyi
-     */
+
     private final class ImageClick implements OnClickListener {
         @Override
         public void onClick(View v) {

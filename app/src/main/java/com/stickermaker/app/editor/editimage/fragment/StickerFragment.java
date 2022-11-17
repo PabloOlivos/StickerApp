@@ -33,9 +33,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class StickerFragment extends BaseEditFragment {
     public static final int INDEX = ModuleConfig.INDEX_STICKER;
 
@@ -233,11 +231,7 @@ public class StickerFragment extends BaseEditFragment {
         this.mStickerView = mStickerView;
     }
 
-    /**
-     * 返回主菜单页面
-     *
-     * @author panyi
-     */
+
     private final class BackToMenuClick implements OnClickListener {
         @Override
         public void onClick(View v) {
@@ -253,11 +247,7 @@ public class StickerFragment extends BaseEditFragment {
         activity.bannerFlipper.showPrevious();
     }
 
-    /**
-     * 保存贴图任务
-     *
-     * @author panyi
-     */
+
     private final class SaveStickersTask extends StickerTask {
         public SaveStickersTask(EditImageActivity activity) {
             super(activity);

@@ -10,12 +10,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * 文件相关辅助类
- * 
- * @author panyi
- * 
- */
+
 public class FileUtils {
 	public static final String FOLDER_NAME = "xinlanedit";
 
@@ -131,12 +126,7 @@ public class FileUtils {
 		return megaByte + "MB";
 	}
 
-	/**
-	 * 
-	 * @Description:
-	 * @Author 11120500
-	 * @Date 2013-4-25
-	 */
+
 	public static boolean isConnect(Context context) {
 		try {
 			ConnectivityManager connectivity = (ConnectivityManager) context

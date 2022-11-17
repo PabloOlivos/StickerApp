@@ -20,9 +20,6 @@ import com.stickermaker.app.editor.editimage.view.RotateImageView;
 import com.stickermaker.app.editor.editimage.view.imagezoom.ImageViewTouchBase;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
 public class RotateFragment extends BaseEditFragment {
     public static final int INDEX = ModuleConfig.INDEX_ROTATE;
     public static final String TAG = RotateFragment.class.getName();
@@ -76,11 +73,7 @@ public class RotateFragment extends BaseEditFragment {
         activity.bannerFlipper.showNext();
     }
 
-    /**
-     * 角度改变监听
-     *
-     * @author panyi
-     */
+
     private final class RotateAngleChange implements OnSeekBarChangeListener {
         @Override
         public void onProgressChanged(SeekBar seekBar, int angle,
@@ -100,11 +93,7 @@ public class RotateFragment extends BaseEditFragment {
         }
     }// end inner class
 
-    /**
-     * 返回按钮逻辑
-     *
-     * @author panyi
-     */
+
     private final class BackToMenuClick implements OnClickListener {
         @Override
         public void onClick(View v) {
@@ -138,11 +127,7 @@ public class RotateFragment extends BaseEditFragment {
         }// end if
     }
 
-    /**
-     * 保存图片线程
-     *
-     * @author panyi
-     */
+
     private final class SaveRotateImageTask extends
             AsyncTask<Bitmap, Void, Bitmap> {
         //private Dialog dialog;

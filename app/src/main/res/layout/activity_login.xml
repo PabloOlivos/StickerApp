@@ -28,8 +28,9 @@
                 android:layout_marginBottom="10dp"
                 android:textSize="22dp"
                 android:textStyle="bold"
-                android:textColor="@color/dark_gray"
-                android:text="Sign in,it's free!"
+                android:textColor="#F28322"
+                android:text="Inicia Sesión"
+                android:fontFamily="@font/kabelbd_normal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
@@ -37,7 +38,8 @@
                 android:layout_marginBottom="10dp"
                 android:lineSpacingExtra="3dp"
                 android:textColor="@color/primary_text_light"
-                android:text="In order to collect ,like ,sahre and download free content, you have to be signed up/in, Signing up/In  is free and has a lot of advantages:"
+                android:text="Para recopilar, compartir y descargar contenido gratuito, debe estar registrado/registrado. Registrarse/Registrarse es gratis y tiene muchas ventajas:"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RelativeLayout
@@ -52,7 +54,45 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Follow and  discover your favorite authors"
+                    android:text="Sigue y descubre a tus autores favoritos."
+                    android:fontFamily="@font/google_sans"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Publica tu contenido creativo con nuestra comunidad."
+                    android:fontFamily="@font/google_sans"
+                    android:textSize="13dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:gravity="left|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_margin="7dp"
+                    android:background="@color/black"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:textSize="13dp"
+                    android:text="Deja tu opinión en los comentarios"
+                    android:fontFamily="@font/google_sans"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -69,7 +109,8 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Publish you creative content with our community ."
+                    android:text="Califica los paquetes de stickers "
+                    android:fontFamily="@font/google_sans"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -86,41 +127,8 @@
                     android:layout_height="5dp"/>
                 <TextView
                     android:textSize="13dp"
-                    android:text="Give your option in comment section"
-                    android:layout_marginLeft="20dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:paddingTop="5dp"
-                android:gravity="left|center"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RelativeLayout
-                    android:layout_margin="7dp"
-                    android:background="@color/black"
-                    android:layout_width="5dp"
-                    android:layout_height="5dp"/>
-                <TextView
-                    android:textSize="13dp"
-                    android:text="Rate content and add your power"
-                    android:layout_marginLeft="20dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:paddingTop="5dp"
-                android:gravity="left|center"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RelativeLayout
-                    android:layout_margin="7dp"
-                    android:background="@color/black"
-                    android:layout_width="5dp"
-                    android:layout_height="5dp"/>
-                <TextView
-                    android:textSize="13dp"
-                    android:text="Has own profile and take your trusted badge"
+                    android:text="Crea tu propio perfil y obten la insignia de confianza"
+                    android:fontFamily="@font/google_sans"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -189,7 +197,8 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Login with Google"
+                            android:text="Ingresar con Google"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -227,7 +236,8 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Login with Phone number"
+                            android:text="Ingresa con número telefónico"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -248,7 +258,8 @@
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="Please Type the verification code sended to you"
+                    android:text="Por favor, escriba el código de verificación que se le envió"
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <EditText
@@ -294,7 +305,8 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Continue"
+                            android:text="Siguiente"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -314,7 +326,8 @@
                     android:textSize="17dp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="Enter your phone number"
+                    android:text="Ingrese su número telefónico"
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <LinearLayout
@@ -376,7 +389,8 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Send the verification code"
+                            android:text="Enviar código de verificación"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -396,7 +410,8 @@
                     android:textSize="17dp"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:text="Enter your full name"
+                    android:text="Ingresa tu nombre"
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <LinearLayout
@@ -446,7 +461,8 @@
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textColor="@color/white"
-                            android:text="Finish"
+                            android:text="Terminar"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="40dp" />
                     </RelativeLayout>
@@ -468,15 +484,17 @@
                     android:layout_height="30dp"/>
                 <TextView
                     android:textColor="@color/primary_text"
-                    android:text="I agree with "
+                    android:text="Acepto "
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:textStyle="bold"
                     android:id="@+id/text_view_login_activity_privacy"
                     android:layout_marginLeft="3dp"
-                    android:textColor="@color/com_facebook_blue"
-                    android:text="Privacy policy terms and conditions "
+                    android:textColor="#2C6CBF"
+                    android:text="Términos y condiciones de la aplicación "
+                    android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -492,7 +510,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="17dp"
                 android:layout_marginBottom="3dp"
-                android:text="login with Google"
+                android:text="Ingresar con Google"
+                android:fontFamily="@font/google_sans"
                 app:colorScheme="dark"
                 />
 

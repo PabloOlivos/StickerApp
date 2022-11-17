@@ -14,16 +14,18 @@
         android:src="@drawable/profile"
         android:layout_width="40dp"
         android:layout_height="40dp" />
+
     <TextView
-        android:gravity="center|left"
-        android:textColor="#555555"
-        android:layout_marginLeft="60dp"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:text="Use Name"
+        android:id="@+id/text_view_name_item_user"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/text_view_name_item_user" />
+        android:layout_marginLeft="60dp"
+        android:gravity="center|left"
+        android:text="User Name"
+        android:fontFamily="@font/kabelbd_normal"
+        android:textColor="#555555"
+        android:textSize="18sp"
+        android:textStyle="bold" />
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/image_view_user_iten_trusted"
         android:layout_marginLeft="35dp"

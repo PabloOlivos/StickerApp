@@ -71,6 +71,7 @@
                         android:textColor="@color/primary_text"
                         android:gravity="center|left"
                         android:text="@string/pack_publisher"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:layout_height="40dp" />
                 </LinearLayout>
@@ -106,6 +107,7 @@
                         android:textColor="@color/primary_text"
                         android:gravity="center|left"
                         android:text="@string/publisher_email"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:layout_height="40dp" />
                 </LinearLayout>
@@ -141,6 +143,7 @@
                         android:textColor="@color/primary_text"
                         android:gravity="center|left"
                         android:text="@string/publisher_website"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:layout_height="40dp" />
                 </LinearLayout>
@@ -176,6 +179,7 @@
                         android:textColor="@color/primary_text"
                         android:gravity="center|left"
                         android:text="@string/policy_privacy"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:layout_height="40dp" />
                 </LinearLayout>
@@ -210,6 +214,7 @@
                         android:textColor="@color/primary_text"
                         android:gravity="center|left"
                         android:text="@string/license_agreement"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:layout_height="40dp" />
                 </LinearLayout>

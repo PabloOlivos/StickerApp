@@ -25,9 +25,7 @@ import java.util.Map;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-/**
- * Created by Tamim on 17/01/2018.
- */
+
 
 public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private List<TagApi> tagList =  new ArrayList<>();
@@ -80,7 +78,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         switch (getItemViewType(position)) {
             case 1: {
                 CategoryHolder categoryHolder = (CategoryHolder) holder;
-                Typeface face = Typeface.createFromAsset(activity.getAssets(), "Pattaya-Regular.ttf");
+                Typeface face = Typeface.createFromAsset(activity.getAssets(), "KabelBdNormal.ttf");
                 categoryHolder.text_view_item_category.setTypeface(face);
                 categoryHolder.text_view_item_category_shadow.setTypeface(face);
                 int index = 0;
@@ -143,7 +141,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
 
                 CategoryMiniHolder categoryHolder = (CategoryMiniHolder) holder;
-                Typeface face = Typeface.createFromAsset(activity.getAssets(), "Pattaya-Regular.ttf");
+                Typeface face = Typeface.createFromAsset(activity.getAssets(), "KabelBdNormal.ttf");
                 categoryHolder.text_view_item_category.setTypeface(face);
                 categoryHolder.text_view_item_category_counter.setTypeface(face);
                 categoryHolder.card_view.setCardBackgroundColor(Color.parseColor(colorsTxt[index]));

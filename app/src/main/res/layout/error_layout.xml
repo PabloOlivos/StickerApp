@@ -31,6 +31,7 @@
                 android:textStyle="bold"
                 android:padding="10dp"
                 android:text="@string/error_server"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <Button
@@ -41,6 +42,7 @@
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:text="@string/try_again"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>

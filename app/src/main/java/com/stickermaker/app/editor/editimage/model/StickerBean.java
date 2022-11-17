@@ -3,9 +3,7 @@ package com.stickermaker.app.editor.editimage.model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class StickerBean {
     private String coverPath;//封面路径
     private List<String> pathList;

@@ -37,9 +37,7 @@ import java.util.List;
 
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class AddTextFragment extends BaseEditFragment implements TextWatcher {
     public static final int INDEX = ModuleConfig.INDEX_ADDTEXT;
     public static final String TAG = AddTextFragment.class.getName();
@@ -185,11 +183,7 @@ public class AddTextFragment extends BaseEditFragment implements TextWatcher {
         return imm.isActive();
     }
 
-    /**
-     * 返回按钮逻辑
-     *
-     * @author panyi
-     */
+
     private final class BackToMenuClick implements OnClickListener {
         @Override
         public void onClick(View v) {

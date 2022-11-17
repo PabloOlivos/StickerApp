@@ -5,9 +5,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class RectUtil {
     /**
      * 缩放指定矩形

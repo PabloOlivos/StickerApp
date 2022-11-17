@@ -35,6 +35,7 @@
             android:shadowRadius="5"
             android:textColor="@color/white"
             android:text="Wallpapaer text title"
+            android:fontFamily="@font/kabelbd_normal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

@@ -6,11 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by panyi on 2017/11/15.
- * <p>
- * 编辑缓存  用于保存之前操作产生的位图
- */
+
 public class EditCache {
     public static final int EDIT_CACHE_SIZE = 10;
 

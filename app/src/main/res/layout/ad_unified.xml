@@ -17,6 +17,7 @@
                 android:textColor="#FFFFFF"
                 android:textSize="12sp"
                 android:text="Ad"
+                android:fontFamily="@font/google_sans"
                 android:paddingLeft="3dp"
                 android:paddingRight="3dp"
                 android:background="#FFCC66"
@@ -116,7 +117,8 @@
                         android:paddingRight="35dp"
                         android:textColor="@color/white"
                         android:textSize="14sp"
-                        android:text="INSTALL NOW "
+                        android:text="¡INSTALAR GRATIS! "
+                        android:fontFamily="@font/google_sans"
                         android:visibility="visible" />
                 </LinearLayout>
             </RelativeLayout>

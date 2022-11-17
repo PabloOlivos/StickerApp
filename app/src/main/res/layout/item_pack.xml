@@ -12,7 +12,7 @@
         android:layout_marginBottom="4dp"
         android:layout_margin="10dp"
         app:cardCornerRadius="25dp"
-        app:cardElevation="2dp"
+        app:cardElevation="6dp"
         >
         <ImageView
             android:id="@+id/pack_try_image"
@@ -34,7 +34,7 @@
         android:dividerHeight="19.0px"
         android:clipToPadding="false"
         android:clipChildren="false"
-        app:cardElevation="1dp"
+        app:cardElevation="5dp"
         android:elevation="1dp"
         android:divider="@android:color/transparent"
         app:cardPreventCornerOverlap="false"
@@ -81,6 +81,7 @@
                                     android:layout_gravity="start"
                                     android:layout_weight="1"
                                     android:text="Pack Name "
+                                    android:fontFamily="@font/kabelbd_normal"
                                     android:layout_marginRight="10dp"
                                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                                     android:textSize="20dp" />
@@ -90,6 +91,7 @@
                                 android:id="@+id/item_pack_publisher"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
+                                android:fontFamily="@font/google_sans"
                                 android:layout_gravity="start"
                                 android:layout_weight="1"
                                 android:text="By publisher"
@@ -282,6 +284,7 @@
                         android:textSize="10dp"
                         android:layout_marginLeft="2dp"
                         android:text="10 Comments"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:layout_height="20dp" />
                 </LinearLayout>
@@ -312,6 +315,7 @@
                             android:gravity="left|center_vertical"
                             android:singleLine="true"
                             android:text="12,7K Views"
+                            android:fontFamily="@font/google_sans"
                             android:textColor="@color/dark_gray"
                             android:textSize="10dp"
                             android:textStyle="bold" />
@@ -346,6 +350,7 @@
                             android:textSize="10dp"
                             android:layout_marginLeft="2dp"
                             android:text="123 kb"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="20dp" />
                     </LinearLayout>
@@ -377,6 +382,7 @@
                             android:gravity="left|center_vertical"
                             android:singleLine="true"
                             android:text="10 minutre ago"
+                            android:fontFamily="@font/google_sans"
                             android:textColor="@color/dark_gray"
                             android:textSize="10dp"
                             android:textStyle="bold" />

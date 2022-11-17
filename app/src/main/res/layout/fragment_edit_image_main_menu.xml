@@ -26,7 +26,8 @@
                 />
             <TextView
                 android:textSize="11dp"
-                android:text="Paint"
+                android:text="Pintar"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -51,7 +52,8 @@
                 />
             <TextView
                 android:textSize="11dp"
-                android:text="Stickers"
+                android:text="Pegatinas"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -77,7 +79,8 @@
                 />
             <TextView
                 android:textSize="11dp"
-                android:text="Crop"
+                android:text="Cortar"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -104,7 +107,8 @@
                 />
             <TextView
                 android:textSize="11dp"
-                android:text="Ratation"
+                android:text="Rotar"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -128,7 +132,8 @@
                 />
             <TextView
                 android:textSize="11dp"
-                android:text="Add Text"
+                android:text="Añadir Texto"
+                android:fontFamily="@font/google_sans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>

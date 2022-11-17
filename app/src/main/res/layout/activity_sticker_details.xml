@@ -88,6 +88,7 @@
                                         android:layout_gravity="start"
                                         android:layout_weight="1"
                                         android:text="Pack Name "
+                                        android:fontFamily="@font/kabelbd_normal"
                                         android:layout_marginRight="10dp"
                                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                                         android:textSize="20dp" />
@@ -100,6 +101,7 @@
                                     android:layout_gravity="start"
                                     android:layout_weight="1"
                                     android:text="By publisher"
+                                    android:fontFamily="@font/google_sans"
                                     android:textSize="17dp" />
                             </LinearLayout>
                         </LinearLayout>
@@ -144,6 +146,7 @@
                                 android:layout_marginTop="0dp"
                                 android:gravity="top"
                                 android:text="2 Hours Ago"
+                                android:fontFamily="@font/google_sans"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                                 android:textColor="@color/primary_text"
                                 android:textSize="12dp" />
@@ -174,6 +177,7 @@
                                 android:gravity="top"
                                 android:textColor="@color/primary_text"
                                 android:text="223"
+                                android:fontFamily="@font/google_sans"
                                 android:textSize="12dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content" />
@@ -204,6 +208,7 @@
                                 android:gravity="top"
                                 android:textColor="@color/primary_text"
                                 android:text="738 Kb"
+                                android:fontFamily="@font/google_sans"
                                 android:textSize="12dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content" />
@@ -274,6 +279,7 @@
                             android:padding="10dp"
                             android:gravity="left|center_vertical"
                             android:text="--"
+                            android:fontFamily="@font/google_sans"
                             android:textColor="@color/primary_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
@@ -314,7 +320,8 @@
                             android:textAlignment="center"
                             android:gravity="center"
                             android:textSize="18dp"
-                            android:text="Rate this Pack"
+                            android:text="Califica los stickers"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
                         <androidx.appcompat.widget.AppCompatRatingBar
@@ -358,7 +365,8 @@
                             android:textAlignment="center"
                             android:gravity="center"
                             android:textSize="18dp"
-                            android:text="Users rates"
+                            android:text="Calificaciones"
+                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
                         <LinearLayout
@@ -371,6 +379,7 @@
                                 android:layout_marginRight="10dp"
                                 android:textSize="45dp"
                                 android:text="--"
+                                android:fontFamily="@font/google_sans"
                                 android:textColor="@color/primary_text"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content" />
@@ -422,6 +431,7 @@
                                     android:textAlignment="center"
                                     android:textColor="@color/primary_text"
                                     android:text="0"
+                                    android:fontFamily="@font/google_sans"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>
@@ -467,6 +477,7 @@
                                     android:textAlignment="center"
                                     android:textColor="@color/primary_text"
                                     android:text="0"
+                                    android:fontFamily="@font/google_sans"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>
@@ -512,6 +523,7 @@
                                     android:textAlignment="center"
                                     android:textColor="@color/primary_text"
                                     android:text="0"
+                                    android:fontFamily="@font/google_sans"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>
@@ -557,6 +569,7 @@
                                     android:textAlignment="center"
                                     android:textColor="@color/primary_text"
                                     android:text="0"
+                                    android:fontFamily="@font/google_sans"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>
@@ -602,6 +615,7 @@
                                     android:textAlignment="center"
                                     android:textColor="@color/primary_text"
                                     android:text="0"
+                                    android:fontFamily="@font/google_sans"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>
@@ -659,7 +673,8 @@
                         android:textColor="@color/white"
                         android:textStyle="bold"
                         android:gravity="center|left"
-                        android:text="ADD TO WHATSAPP"
+                        android:text="AÑADIR A WHATSAPP"
+                        android:fontFamily="@font/google_sans"
                         android:textSize="11dp"
                         android:ellipsize="end"
                         android:singleLine="true"

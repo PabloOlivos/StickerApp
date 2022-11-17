@@ -15,9 +15,7 @@ import android.widget.TextView;
 import com.stickermaker.app.R;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class ColorPicker extends Dialog implements SeekBar.OnSeekBarChangeListener {
     private static final String COLOR_STRING_FORMAT = "#%02x%02x%02x";
 

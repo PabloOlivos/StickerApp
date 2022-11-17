@@ -22,7 +22,8 @@
             android:layout_marginTop="10dp"
             android:lines="2"
             android:minLines="2"
-            android:text="how was your experience with us ?"
+            android:text="¿Cómo ha sido tu experiencia con nosotros?"
+            android:fontFamily="@font/google_sans"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <androidx.appcompat.widget.AppCompatRatingBar
@@ -50,7 +51,8 @@
             <Button
                 android:id="@+id/button_never"
                 android:textStyle="bold"
-                android:text="NEVER"
+                android:text="NO CALIFICAR"
+                android:fontFamily="@font/google_sans"
                 android:textColor="@color/primary_text_light"
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
@@ -61,6 +63,7 @@
                 android:id="@+id/button_later"
                 android:textStyle="bold"
                 android:text="@string/later"
+                android:fontFamily="@font/google_sans"
                 android:textColor="@color/blue"
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
@@ -86,7 +89,8 @@
             android:textSize="18dp"
             android:lines="1"
             android:gravity="center|left"
-            android:text="Feedback"
+            android:text="Retroalimentación"
+            android:fontFamily="@font/google_sans"
             android:layout_width="match_parent"
             android:layout_height="40dp" />
         <EditText
@@ -95,7 +99,7 @@
             android:lines="4"
             android:padding="10dp"
             android:gravity="top|left"
-            android:hint="Write feedback ..."
+            android:hint="¿En qué podemos mejorar...?"
             android:textColor="@color/primary_text"
             android:background="@drawable/edit_text_bg"
             android:layout_width="match_parent"
@@ -108,6 +112,7 @@
                 android:id="@+id/button_cancel"
                 android:textStyle="bold"
                 android:text="Cancel"
+                android:fontFamily="@font/google_sans"
                 android:textColor="@color/primary_text_light"
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
@@ -117,7 +122,8 @@
             <Button
                 android:id="@+id/buttun_send_feedback"
                 android:textStyle="bold"
-                android:text="Submit"
+                android:text="Enviar"
+                android:fontFamily="@font/google_sans"
                 android:textColor="@color/blue"
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"

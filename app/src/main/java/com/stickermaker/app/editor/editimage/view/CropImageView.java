@@ -15,9 +15,7 @@ import com.stickermaker.app.R;
 import com.stickermaker.app.editor.editimage.utils.PaintUtil;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class CropImageView extends View {
 	private static int STATUS_IDLE = 1;// 空闲状态
 	private static int STATUS_MOVE = 2;// 移动状态

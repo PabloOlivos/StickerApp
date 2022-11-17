@@ -1,8 +1,6 @@
 package com.stickermaker.app.editor.editimage.model;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class RatioItem {
 	private String text;
 	private Float ratio;

@@ -1,8 +1,6 @@
 package com.stickermaker.app.editor.editimage.utils;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class Matrix3 {
 	private float[] data;
 

@@ -36,10 +36,6 @@ import timber.log.Timber;
 import static okhttp3.logging.HttpLoggingInterceptor.Level.HEADERS;
 import static okhttp3.logging.HttpLoggingInterceptor.Level.NONE;
 
-/**
- * Created by Tamim on 28/09/2017.
- */
-
 
 
 public class apiClient {

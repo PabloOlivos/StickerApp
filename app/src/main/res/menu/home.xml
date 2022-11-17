@@ -9,6 +9,7 @@
         android:title="@string/abc_search_hint"
         app:showAsAction="always" />
     <item
+        android:visible="false"
         android:orderInCategory="100"
         app:showAsAction="always"
         android:id="@+id/action_go_pro"

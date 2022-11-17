@@ -3,9 +3,7 @@ package com.stickermaker.app.entity;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by hsn on 27/11/2017.
- */
+
 
 public class ApiValue {
     @SerializedName("name")

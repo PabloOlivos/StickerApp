@@ -453,7 +453,7 @@ public class HomeActivity extends AppCompatActivity
                         overridePendingTransition(R.anim.enter, R.anim.exit);
                     }else{
                         FromLogin=true;
-                        Intent intent = new Intent(HomeActivity.this,LoginActivity.class);
+                        Intent intent = new Intent(HomeActivity.this,UploadActivity.class);
                         startActivity(intent);
                     }
                 }

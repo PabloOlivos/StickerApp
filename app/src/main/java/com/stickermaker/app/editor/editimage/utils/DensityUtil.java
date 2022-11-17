@@ -3,9 +3,7 @@ package com.stickermaker.app.editor.editimage.utils;
 import android.content.Context;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class DensityUtil {
 
     /**

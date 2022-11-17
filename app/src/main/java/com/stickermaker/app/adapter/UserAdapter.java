@@ -20,9 +20,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-/**
- * Created by hsn on 07/12/2017.
- */
+
 
 
 public class UserAdapter extends BaseAdapter {

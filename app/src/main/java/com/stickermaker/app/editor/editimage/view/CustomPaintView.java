@@ -13,9 +13,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 
 public class CustomPaintView extends View {
     private Paint mPaint;

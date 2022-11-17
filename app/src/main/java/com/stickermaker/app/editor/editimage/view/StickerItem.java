@@ -17,9 +17,6 @@ import com.stickermaker.app.R;
 import com.stickermaker.app.editor.editimage.utils.RectUtil;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
 public class StickerItem {
     private static final float MIN_SCALE = 0.15f;
     private static final int HELP_BOX_PAD = 25;

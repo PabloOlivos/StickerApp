@@ -7,11 +7,6 @@ import com.stickermaker.app.R;
 import com.stickermaker.app.editor.editimage.EditImageActivity;
 
 
-/**
- * Created by panyi on 2017/11/15.
- * <p>
- * 前一步 后一步操作类
- */
 public class RedoUndoController implements View.OnClickListener {
     private View mRootView;
     private View mUndoBtn;//撤销按钮

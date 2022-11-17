@@ -3,9 +3,7 @@ package com.stickermaker.app.editor.editimage.utils;
 import java.util.List;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class ListUtil {
     public static boolean isEmpty(List list) {
         if (list == null)

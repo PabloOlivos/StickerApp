@@ -18,9 +18,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.TypedValue;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class PaintUtil {
 
 	// Private Constants ///////////////////////////////////////////////////////

@@ -63,6 +63,7 @@
                     android:textStyle="bold"
                     android:textSize="7dp"
                     android:text="2 hours ago"
+                    android:fontFamily="@font/google_sans"
 
                     android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"

@@ -11,9 +11,6 @@ import com.stickermaker.app.editor.editimage.fragment.PaintFragment;
 
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
 public class ColorListAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int TYPE_COLOR = 1;
     public static final int TYPE_MORE = 2;

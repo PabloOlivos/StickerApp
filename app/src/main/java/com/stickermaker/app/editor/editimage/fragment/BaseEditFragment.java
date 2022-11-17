@@ -5,9 +5,7 @@ import androidx.fragment.app.Fragment;
 
 import com.stickermaker.app.editor.editimage.EditImageActivity;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 
 public abstract class BaseEditFragment extends Fragment {
     protected EditImageActivity activity;

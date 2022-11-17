@@ -1,8 +1,6 @@
 package com.stickermaker.app.editor.editimage;
 
-/**
- * Created by panyi on 2017/7/12.
- */
+
 
 public final class ModuleConfig {
     public static final int INDEX_MAIN = 0;

@@ -42,14 +42,14 @@
                     android:layout_centerHorizontal="true"
                     android:layout_width="120dp"
                     android:layout_height="120dp">
+
                     <com.github.siyamed.shapeimageview.CircularImageView
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
                         android:id="@+id/image_view_edit_activity_user_profile"
-                        android:padding="8dp"
-                        android:src="@drawable/profile"
                         android:layout_width="120dp"
-                        android:layout_height="120dp" />
+                        android:layout_height="120dp"
+                        android:layout_centerInParent="true"
+                        android:padding="8dp"
+                        android:src="@drawable/profile" />
                     <RelativeLayout
                         android:background="@drawable/bg_fab_accent"
                         android:elevation="10dp"
@@ -75,13 +75,13 @@
                     android:id="@+id/text_view_name_user"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"
                     android:shadowColor="@color/black"
                     android:textSize="10pt"
                     android:textStyle="bold"
                     android:padding="10dp"
                     android:textColor="@color/primary_text"
                     android:text="Rahul kumar"
+                    android:fontFamily="@font/kabelbd_normal"
                     android:gravity="center"
                     android:layout_alignParentBottom="true"
                     android:layout_width="match_parent"
@@ -137,6 +137,7 @@
                         android:id="@+id/edit_input_name"
                         android:layout_width="match_parent"
                         android:inputType="text"
+                        android:fontFamily="@font/google_sans"
                         android:hint="@string/hint_name" />
                 </com.google.android.material.textfield.TextInputLayout>
                 <com.google.android.material.textfield.TextInputLayout
@@ -151,6 +152,7 @@
                         android:layout_height="45dp"
                         android:background="@drawable/edit_text_bg"
                         android:id="@+id/edit_input_email"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:inputType="textEmailAddress"
                         android:hint="@string/hint_email" />
@@ -169,6 +171,7 @@
                         android:id="@+id/edit_input_facebook"
                         android:layout_width="match_parent"
                         android:inputType="textEmailAddress"
+                        android:fontFamily="@font/google_sans"
                         android:hint="@string/hint_facebook" />
                 </com.google.android.material.textfield.TextInputLayout>
                 <com.google.android.material.textfield.TextInputLayout
@@ -183,6 +186,7 @@
                         android:layout_height="45dp"
                         android:background="@drawable/edit_text_bg"
                         android:id="@+id/edit_input_twitter"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:inputType="textEmailAddress"
                         android:hint="@string/hint_twitter" />
@@ -199,6 +203,7 @@
                         android:layout_height="45dp"
                         android:background="@drawable/edit_text_bg"
                         android:id="@+id/edit_input_instragram"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="match_parent"
                         android:inputType="textEmailAddress"
                         android:hint="@string/hint_instragram" />
@@ -210,6 +215,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/edit_button"
+                    android:fontFamily="@font/google_sans"
                     android:layout_weight="1"
                     android:padding="16dp"
                     android:textColor="@color/white"

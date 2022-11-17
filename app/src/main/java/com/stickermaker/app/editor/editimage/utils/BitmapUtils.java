@@ -40,9 +40,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class BitmapUtils {
     /**
      * Used to tag logs

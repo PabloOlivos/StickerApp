@@ -8,7 +8,7 @@
     tools:context="com.stickermaker.app.ui.PolicyActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
-        app:elevation="2dp"
+        app:elevation="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout

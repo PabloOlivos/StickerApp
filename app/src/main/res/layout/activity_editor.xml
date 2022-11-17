@@ -180,6 +180,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Eraser size:"
+                android:fontFamily="@font/google_sans"
                 android:textColor="#000" />
             <SeekBar
                 android:layout_toRightOf="@+id/textView"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WAStickerApps - Stickers for Whatsapp</string>
+    <string name="app_name">UNITECKER</string>
 
     <string name="facebook_app_id">2169750233343295</string>
     <string name="fb_login_protocol_scheme">fb2169750233343295</string>
@@ -19,6 +19,7 @@
         <item>font_8.ttf</item>
         <item>font_9.ttf</item>
         <item>font_10.ttf</item>
+        <item>google_sans.ttf</item>
     </string-array>
 
 

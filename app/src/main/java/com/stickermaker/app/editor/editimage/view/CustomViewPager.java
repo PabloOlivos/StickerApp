@@ -4,9 +4,7 @@ import android.content.Context;
 import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class CustomViewPager extends ViewPager {
 	private boolean isCanScroll = false;
 

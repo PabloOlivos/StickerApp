@@ -12,9 +12,7 @@ import android.view.View;
 
 import com.stickermaker.app.editor.editimage.utils.PaintUtil;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class RotateImageView extends View {
 	private Rect srcRect;
 	private RectF dstRect;

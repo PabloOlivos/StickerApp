@@ -25,9 +25,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
 public class TextStickerView extends View {
     public static final float TEXT_SIZE_DEFAULT = 80;
     public static final int PADDING = 32;

@@ -67,6 +67,7 @@
                             android:textColor="#dde3ec"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
+
                         <ImageView
                             android:id="@+id/image_view_tray_image"
                             android:layout_width="match_parent"
@@ -74,8 +75,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/border_file"
                             android:elevation="2dp"
-                            android:padding="5dp"
-                            />
+                            android:padding="5dp" />
                     </RelativeLayout>
                     <LinearLayout
                         android:layout_marginTop="-3dp"
@@ -95,6 +95,7 @@
                                 android:layout_height="match_parent"
                                 android:background="@drawable/edit_text_bg"
                                 android:hint="@string/hint_pack_name"
+                                android:fontFamily="@font/google_sans"
                                 android:inputType="textEmailAddress"
                                 android:padding="10dp" />
                         </com.google.android.material.textfield.TextInputLayout>
@@ -115,7 +116,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:inputType="text"
-                                    android:hint="@string/hint_publisher" />
+                                    android:hint="@string/hint_publisher"
+                                    android:fontFamily="@font/google_sans"/>
                             </com.google.android.material.textfield.TextInputLayout>
                             <ImageView
                                 android:background="@drawable/edit_text_bg"
@@ -150,6 +152,7 @@
                             android:layout_height="match_parent"
                             android:background="@drawable/edit_text_bg"
                             android:hint="@string/hint_pack_email"
+                            android:fontFamily="@font/google_sans"
                             android:inputType="textEmailAddress"
                             android:padding="10dp" />
                     </com.google.android.material.textfield.TextInputLayout>
@@ -166,6 +169,7 @@
                             android:layout_height="match_parent"
                             android:background="@drawable/edit_text_bg"
                             android:hint="@string/hint_pack_website"
+                            android:fontFamily="@font/google_sans"
                             android:inputType="textEmailAddress"
                             android:padding="10dp" />
                     </com.google.android.material.textfield.TextInputLayout>
@@ -182,7 +186,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
                             android:inputType="text"
-                            android:hint="@string/hint_privacy" />
+                            android:hint="@string/hint_privacy"
+                            android:fontFamily="@font/google_sans"/>
                     </com.google.android.material.textfield.TextInputLayout>
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_marginBottom="7dp"
@@ -197,7 +202,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
                             android:inputType="text"
-                            android:hint="@string/hint_license" />
+                            android:hint="@string/hint_license"
+                            android:fontFamily="@font/google_sans"/>
                     </com.google.android.material.textfield.TextInputLayout>
                     <TextView
                         android:text="Select Categories :"
@@ -226,7 +232,8 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textAlignment="center"
-                        android:text="Click here to add new sticker"
+                        android:text="Agregar un nuevo sticker"
+                        android:fontFamily="@font/google_sans"
                         android:textSize="14dp"
                         android:textColor="#dde3ec"
                         android:textStyle="bold"
@@ -272,36 +279,41 @@
             android:background="@drawable/background_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <RelativeLayout
-                android:gravity="center"
-                android:layout_weight="1"
                 android:id="@+id/relative_layout_add_to_whatsapp"
-                android:focusable="true"
-                android:clickable="true"
-                android:padding="4dp"
-                android:background="?attr/selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="4dp">
+
                 <LinearLayout
                     android:id="@+id/linear_layout_add_to_whatsapp"
-                    android:orientation="horizontal"
-                    android:gravity="center"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
                     <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:padding="7dp"
                         android:tint="@color/white"
-                        app:srcCompat="@drawable/ic_whatsapp"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp" />
+                        app:srcCompat="@drawable/ic_whatsapp" />
+
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/google_sans"
+                        android:gravity="center|left"
+                        android:text="AÑADIR A WHATSAPP"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:gravity="center|left"
-                        android:text="ADD TO WHATSAPP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="40dp" />
+                        android:textStyle="bold" />
                 </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>

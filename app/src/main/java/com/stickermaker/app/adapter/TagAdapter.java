@@ -17,9 +17,7 @@ import com.stickermaker.app.entity.TagApi;
 
 import java.util.List;
 
-/**
- * Created by hsn on 05/04/2018.
- */
+
 
 public class TagAdapter extends  RecyclerView.Adapter<TagAdapter.TagHolder>{
     private List<TagApi> tagList;
@@ -64,7 +62,7 @@ public class TagAdapter extends  RecyclerView.Adapter<TagAdapter.TagHolder>{
             }
 
             holder.card_view_tag_item_global.setCardBackgroundColor(Color.parseColor(colorsTxt[step-1]));
-            Typeface face = Typeface.createFromAsset(activity.getAssets(), "Pattaya-Regular.ttf");
+            Typeface face = Typeface.createFromAsset(activity.getAssets(), "KabelBdNormal.ttf");
             holder.text_view_item_tag_item.setTypeface(face);
 
             holder.card_view_tag_item_global.setOnClickListener(new View.OnClickListener() {

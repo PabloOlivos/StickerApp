@@ -7,9 +7,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-/**
- * Created by hsn on 28/11/2017.
- */
+
 
 public class ClickableViewPager extends ViewPager {
 

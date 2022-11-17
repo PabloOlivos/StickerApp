@@ -39,15 +39,7 @@ import com.stickermaker.app.editor.editimage.view.imagezoom.ImageViewTouch;
 import com.stickermaker.app.editor.editimage.view.imagezoom.ImageViewTouchBase;
 import com.stickermaker.app.editor.editimage.widget.RedoUndoController;
 
-/**
- * <p>
- * 图片编辑 主页面
- *
- * @author panyi
- *         <p>
- *         包含 1.贴图 2.滤镜 3.剪裁 4.底图旋转 功能
- *         add new modules
- */
+
 public class EditImageActivity extends BaseActivity {
     public static final String FILE_PATH = "file_path";
     public static final String EXTRA_OUTPUT = "extra_output";
@@ -200,9 +192,7 @@ public class EditImageActivity extends BaseActivity {
         }
     }
 
-    /**
-     * @author panyi
-     */
+
     private final class BottomGalleryAdapter extends FragmentPagerAdapter {
         public BottomGalleryAdapter(FragmentManager fm) {
             super(fm);
@@ -308,11 +298,7 @@ public class EditImageActivity extends BaseActivity {
         }
     }
 
-    /**
-     * 应用按钮点击
-     *
-     * @author panyi
-     */
+
     private final class ApplyBtnClick implements OnClickListener {
         @Override
         public void onClick(View v) {
@@ -340,11 +326,7 @@ public class EditImageActivity extends BaseActivity {
         }
     }// end inner class
 
-    /**
-     * 保存按钮 点击退出
-     *
-     * @author panyi
-     */
+
     private final class SaveBtnClick implements OnClickListener {
         @Override
         public void onClick(View v) {

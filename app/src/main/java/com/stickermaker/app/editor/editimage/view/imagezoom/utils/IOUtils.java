@@ -9,9 +9,7 @@ import android.provider.MediaStore.Images.ImageColumns;
 
 import java.io.Closeable;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class IOUtils {
 
 	/**

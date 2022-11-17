@@ -127,6 +127,7 @@
                         android:textColor="@color/white"
                         android:textSize="14sp"
                         android:text="LEARN MORE "
+                        android:fontFamily="@font/google_sans"
                         android:visibility="visible" />
                 </LinearLayout>
             </RelativeLayout>

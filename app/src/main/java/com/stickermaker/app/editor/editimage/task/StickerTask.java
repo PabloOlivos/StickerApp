@@ -12,9 +12,7 @@ import com.stickermaker.app.R;
 import com.stickermaker.app.editor.editimage.EditImageActivity;
 import com.stickermaker.app.editor.editimage.utils.Matrix3;
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public abstract class StickerTask extends AsyncTask<Bitmap, Void, Bitmap> {
     private Dialog dialog;
 

@@ -37,6 +37,7 @@
             android:paddingBottom="7dp"
             android:gravity="center"
             android:text="Navigation"
+            android:fontFamily="@font/kabelbd_normal"
             android:textColor="@color/white"
             android:textStyle="bold"/>
     </androidx.cardview.widget.CardView>

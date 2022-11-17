@@ -134,6 +134,7 @@
                             android:textStyle="bold"
                             android:textColor="@color/primary_text"
                             android:text="Robinson Cruso "
+                            android:fontFamily="@font/kabelbd_normal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
                         <Button
@@ -145,6 +146,7 @@
                             android:background="@drawable/background_btn_black"
                             android:textColor="@color/colorPrimaryDark"
                             android:text="@string/loading"
+                            android:fontFamily="@font/google_sans"
                             android:layout_marginRight="5dp"
                             android:layout_alignParentRight="true"
                             android:layout_width="match_parent"
@@ -158,6 +160,7 @@
                             android:background="@drawable/background_btn_black"
                             android:textColor="@color/colorPrimaryDark"
                             android:text="@string/edit_my_profile"
+                            android:fontFamily="@font/google_sans"
                             android:layout_marginRight="5dp"
                             android:layout_alignParentRight="true"
                             android:layout_width="match_parent"
@@ -191,6 +194,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:text="-"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
@@ -198,6 +202,7 @@
                         android:textSize="12dp"
                         android:gravity="center"
                         android:text="Packs"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
@@ -219,6 +224,7 @@
                         android:textStyle="bold"
                         android:gravity="left"
                         android:text="-"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
@@ -226,6 +232,7 @@
                         android:textSize="12dp"
                         android:gravity="left"
                         android:text="Followers"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
@@ -247,6 +254,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:text="-"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
@@ -254,6 +262,7 @@
                         android:textSize="12dp"
                         android:gravity="center"
                         android:text="Following"
+                        android:fontFamily="@font/google_sans"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </LinearLayout>

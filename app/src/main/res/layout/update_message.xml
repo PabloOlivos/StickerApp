@@ -12,6 +12,7 @@
         android:layout_marginBottom="10dp"
         android:textColor="@color/primary_text_light"
         android:text="New Version is available please download it "
+        android:fontFamily="@font/google_sans"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <TextView
@@ -19,6 +20,7 @@
         android:textSize="14dp"
         android:textColor="#027402"
         android:text="* Bugs fixed \n* Share Button added\n* Other one \n* New One \n* new Frature"
+        android:fontFamily="@font/google_sans"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

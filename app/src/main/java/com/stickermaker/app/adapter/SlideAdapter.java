@@ -56,7 +56,7 @@ public class SlideAdapter extends PagerAdapter {
         TextView text_view_item_slide_one_title =  (TextView)  view.findViewById(R.id.text_view_item_slide_one_title);
         ImageView image_view_item_slide_one =  (ImageView)  view.findViewById(R.id.image_view_item_slide_one);
 
-        Typeface face = Typeface.createFromAsset(activity.getAssets(), "Pattaya-Regular.ttf");
+        Typeface face = Typeface.createFromAsset(activity.getAssets(), "KabelBdNormal.ttf");
         text_view_item_slide_one_title.setTypeface(face);
 
         byte[] data = android.util.Base64.decode(slideList.get(position).getTitle(), android.util.Base64.DEFAULT);

@@ -34,9 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class CropFragment extends BaseEditFragment {
     public static final int INDEX = ModuleConfig.INDEX_CROP;
 	public static final String TAG = CropFragment.class.getName();
@@ -109,12 +107,7 @@ public class CropFragment extends BaseEditFragment {
 		selctedTextView.setTextColor(SELECTED_COLOR);
 	}
 
-	/**
-	 * 选择剪裁比率
-	 * 
-	 * @author
-	 * 
-	 */
+
 	private final class CropRationClick implements OnClickListener {
 		@Override
 		public void onClick(View v) {
@@ -163,12 +156,7 @@ public class CropFragment extends BaseEditFragment {
 		});
     }
 
-    /**
-	 * 返回按钮逻辑
-	 * 
-	 * @author panyi
-	 * 
-	 */
+
 	private final class BackToMenuClick implements OnClickListener {
 		@Override
 		public void onClick(View v) {
@@ -201,12 +189,7 @@ public class CropFragment extends BaseEditFragment {
 		task.execute(activity.getMainBit());
 	}
 
-	/**
-	 * 图片剪裁生成 异步任务
-	 * 
-	 * @author panyi
-	 * 
-	 */
+
 	private final class CropImageTask extends AsyncTask<Bitmap, Void, Bitmap> {
 		private Dialog dialog;
 

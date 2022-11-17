@@ -14,9 +14,7 @@ import com.stickermaker.app.R;
 import com.stickermaker.app.editor.editimage.fragment.StickerFragment;
 
 
-/**
- * Created by virmana on 27/11/2017.
- */
+
 public class StickerTypeAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     public static final String[] stickerPath = {"stickers/type1", "stickers/type2", "stickers/type3", "stickers/type4", "stickers/type5", "stickers/type6"};
@@ -73,11 +71,7 @@ public class StickerTypeAdapter extends RecyclerView.Adapter<ViewHolder> {
         imageHoler.text.setOnClickListener(mImageClick);
     }
 
-    /**
-     * 选择贴图类型
-     *
-     * @author panyi
-     */
+
     private final class ImageClick implements OnClickListener {
         @Override
         public void onClick(View v) {

@@ -13,9 +13,7 @@ import com.stickermaker.app.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hsn on 28/11/2017.
- */
+
 
 
 public class IntroAdapter extends PagerAdapter {
