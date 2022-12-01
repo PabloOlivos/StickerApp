@@ -50,14 +50,14 @@
                 android:paddingLeft="8dp"
                 android:paddingRight="10dp">
                 <ImageView
-                    android:tint="#25D366"
+                    android:tint="#f68b1f"
                     android:layout_marginRight="10dp"
                     android:id="@+id/uodo_btn"
                     android:layout_width="45dp"
                     android:layout_height="fill_parent"
                     app:srcCompat="@drawable/ic_round_undo_inactive_24px" />
                 <ImageView
-                    android:tint="#25D366"
+                    android:tint="#f68b1f"
                     android:id="@+id/redo_btn"
                     android:layout_width="45dp"
                     android:layout_height="fill_parent"
@@ -80,7 +80,7 @@
                     android:gravity="center"
                     android:text="@string/save"
                     android:fontFamily="@font/google_sans"
-                    android:textColor="#25D366"
+                    android:textColor="#f68b1f"
                     android:textSize="20sp" />
 
                 <TextView
@@ -99,7 +99,7 @@
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_gravity="left|center_vertical"
-            android:tint="@color/black"
+            android:tint="#f68b1f"
             app:srcCompat="@drawable/ic_arrow_back_black" />
 
         <TextView
@@ -116,7 +116,7 @@
 
     </FrameLayout>
 
-    <com.stickermaker.app.editor.editimage.view.CustomViewPager
+    <com.unitecker.app.editor.editimage.view.CustomViewPager
         android:elevation="10dp"
         android:id="@+id/bottom_gallery"
         android:layout_width="fill_parent"
@@ -132,41 +132,41 @@
         android:layout_below="@id/banner"
         android:background="@color/white">
 
-        <com.stickermaker.app.editor.editimage.view.imagezoom.ImageViewTouch
+        <com.unitecker.app.editor.editimage.view.imagezoom.ImageViewTouch
             android:id="@+id/main_image"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center" />
 
-        <com.stickermaker.app.editor.editimage.view.StickerView
+        <com.unitecker.app.editor.editimage.view.StickerView
             android:id="@+id/sticker_panel"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:visibility="gone" />
 
-        <com.stickermaker.app.editor.editimage.view.CropImageView
+        <com.unitecker.app.editor.editimage.view.CropImageView
             android:id="@+id/crop_panel"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:visibility="gone" />
 
-        <com.stickermaker.app.editor.editimage.view.RotateImageView
+        <com.unitecker.app.editor.editimage.view.RotateImageView
             android:id="@+id/rotate_panel"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:visibility="gone" />
 
-        <com.stickermaker.app.editor.editimage.view.TextStickerView
+        <com.unitecker.app.editor.editimage.view.TextStickerView
             android:id="@+id/text_sticker_panel"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:visibility="gone" />
 
-        <com.stickermaker.app.editor.editimage.view.CustomPaintView
+        <com.unitecker.app.editor.editimage.view.CustomPaintView
             android:id="@+id/custom_paint_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

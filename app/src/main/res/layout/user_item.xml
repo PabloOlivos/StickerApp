@@ -20,10 +20,10 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginLeft="60dp"
+        android:fontFamily="@font/kabelbd_normal"
         android:gravity="center|left"
         android:text="User Name"
-        android:fontFamily="@font/kabelbd_normal"
-        android:textColor="#555555"
+        android:textColor="#003053"
         android:textSize="18sp"
         android:textStyle="bold" />
     <androidx.appcompat.widget.AppCompatImageView

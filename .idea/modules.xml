@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StickerMaker.iml" filepath="$PROJECT_DIR$/.idea/modules/StickerMaker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StickerMaker_-_copia_(2)_-_copia.iml" filepath="$PROJECT_DIR$/.idea/modules/StickerMaker_-_copia_(2)_-_copia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StickerMaker_-_copia_(2)_-_copia.app.unitTest.iml" />
     </modules>
   </component>
 </project>

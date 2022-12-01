@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.stickermaker.app.ui.fragmenet.HomeFragment">
+    tools:context="com.unitecker.app.ui.fragmenet.HomeFragment">
     <RelativeLayout
         android:id="@+id/relative_layout_content"
         android:layout_width="match_parent"

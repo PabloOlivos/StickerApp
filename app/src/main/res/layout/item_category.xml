@@ -35,17 +35,18 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/kabelbd_normal"
                     />
+
                 <TextView
-                    android:textAlignment="center"
                     android:id="@+id/text_view_item_category_shadow"
+                    android:layout_width="1000dp"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="100dp"
-                    android:textColor="#1affffff"
-                    android:textSize="100sp"
+                    android:fontFamily="@font/kabelbd_normal"
                     android:gravity="left|center"
                     android:text="CROOMING"
-                    android:layout_width="1000dp"
-                    android:fontFamily="@font/kabelbd_normal"
-                    android:layout_height="match_parent" />
+                    android:textAlignment="center"
+                    android:textColor="#1affffff"
+                    android:textSize="100sp" />
                 <RelativeLayout
                     android:gravity="center"
                     android:elevation="1dp"

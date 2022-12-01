@@ -12,7 +12,7 @@
     android:gravity="center|top"
     android:orientation="vertical"
     android:background="@color/colorAccent"
-    tools:context="com.stickermaker.app.ui.SplashActivity">
+    tools:context="com.unitecker.app.ui.SplashActivity">
     <RelativeLayout
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"

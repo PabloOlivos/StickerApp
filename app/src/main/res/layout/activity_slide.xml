@@ -7,8 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.stickermaker.app.ui.SlideActivity">
-    <com.stickermaker.app.ui.views.ClickableViewPager
+    tools:context="com.unitecker.app.ui.SlideActivity">
+    <com.unitecker.app.ui.views.ClickableViewPager
         android:gravity="center"
         android:paddingBottom="0dp"
         android:paddingLeft="20dp"
@@ -17,7 +17,7 @@
         android:id="@+id/view_pager_slide"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </com.stickermaker.app.ui.views.ClickableViewPager>
+    </com.unitecker.app.ui.views.ClickableViewPager>
     <LinearLayout
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
@@ -30,18 +30,18 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="50dp">
+
             <com.github.vivchar.viewpagerindicator.ViewPagerIndicator
-                android:id = "@+id/view_pager_indicator"
-                android:layout_width = "wrap_content"
-                android:layout_height = "wrap_content"
+                android:id="@+id/view_pager_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:padding="5dp"
                 android:layout_marginBottom="10dp"
-                app:delimiterSize = "6dp"
-                app:itemSize="8dp"
                 android:background="@drawable/background_btn_black"
-                />
+                android:padding="5dp"
+                app:delimiterSize="6dp"
+                app:itemSize="8dp" />
             <LinearLayout
                 android:id="@+id/linear_layout_skip"
                 android:background="?android:attr/selectableItemBackground"

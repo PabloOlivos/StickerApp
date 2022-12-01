@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryDark">#dddee3</color>
-    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#f0f0f0</color>
+    <color name="colorPrimary">#0d6fb8</color><!--ACTIONBAR-->
     <color name="colorPrimaryDarkMenu">#FFFFFF</color>
     <color name="colorPrimarybg">#FFFFFF</color>
 
-    <color name="colorAccent">#25D366</color>
+    <color name="colorAccent">#f68b1f</color>
 
     <color name="menuBackgroun">#25D366</color>
     <color name="menuSelector">#f7214f</color>

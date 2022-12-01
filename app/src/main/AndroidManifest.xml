@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.stickermaker.app">
+    package="com.unitecker.app">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name="com.stickermaker.app.Application"
+        android:name="com.unitecker.app.Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_new_launcher"
         android:label="@string/app_name"
@@ -28,17 +28,17 @@
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat.Light" />
         <activity
-            android:name="com.stickermaker.app.editor.picchooser.SelectPictureActivity"
+            android:name="com.unitecker.app.editor.picchooser.SelectPictureActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.stickermaker.app.editor.editimage.EditImageActivity"
+            android:name="com.unitecker.app.editor.editimage.EditImageActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan">
         </activity>
 
-        <service android:name="com.stickermaker.app.services.NotifFirebaseMessagingService">
+        <service android:name="com.unitecker.app.services.NotifFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -66,12 +66,12 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name="com.stickermaker.app.MainActivity" />
+        <activity android:name="com.unitecker.app.MainActivity" />
 
         <provider
             tools:replace="android:authorities"
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.stickermaker.app.fileprovider"
+            android:authorities="com.unitecker.app.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -80,39 +80,39 @@
                 android:resource="@xml/filepaths" />
         </provider>
         <provider
-            android:name="com.stickermaker.app.provider.StickerContentProvider"
+            android:name="com.unitecker.app.provider.StickerContentProvider"
             android:authorities="${contentProviderAuthority}"
             android:enabled="true"
             android:exported="true"
             android:readPermission="com.whatsapp.sticker.READ" />
 
-        <activity android:name="com.stickermaker.app.ui.StickerDetailsActivity">
+        <activity android:name="com.unitecker.app.ui.StickerDetailsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.stickermaker.app.sticker.virmana.stickers_app.MainActivity" />
+                android:value="com.unitecker.app.sticker.virmana.stickers_app.MainActivity" />
         </activity>
         <activity
-            android:name="com.stickermaker.app.ui.HomeActivity"
+            android:name="com.unitecker.app.ui.HomeActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.stickermaker.app.ui.SplashActivity">
+        <activity android:name="com.unitecker.app.ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.stickermaker.app.ui.UserActivity" />
-        <activity android:name="com.stickermaker.app.ui.CategoryActivity" />
+        <activity android:name="com.unitecker.app.ui.UserActivity" />
+        <activity android:name="com.unitecker.app.ui.CategoryActivity" />
         <activity
-            android:name="com.stickermaker.app.ui.LoginActivity"
+            android:name="com.unitecker.app.ui.LoginActivity"
             android:theme="@style/Theme.UserDialog" />
-        <activity android:name="com.stickermaker.app.ui.EditActivity"
+        <activity android:name="com.unitecker.app.ui.EditActivity"
             android:theme="@style/Theme.UserDialog"/>
-        <activity android:name="com.stickermaker.app.ui.SearchActivity" />
-        <activity android:name="com.stickermaker.app.ui.SettingsActivity" />
-        <activity android:name="com.stickermaker.app.ui.PolicyActivity" />
-        <activity android:name="com.stickermaker.app.ui.SupportActivity" />
-        <activity android:name="com.stickermaker.app.ui.LoadActivity">
+        <activity android:name="com.unitecker.app.ui.SearchActivity" />
+        <activity android:name="com.unitecker.app.ui.SettingsActivity" />
+        <activity android:name="com.unitecker.app.ui.PolicyActivity" />
+        <activity android:name="com.unitecker.app.ui.SupportActivity" />
+        <activity android:name="com.unitecker.app.ui.LoadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
 
@@ -127,10 +127,10 @@
                 <data android:host="@string/panel_url" />
             </intent-filter>
         </activity>
-        <activity android:name="com.stickermaker.app.ui.InfosActivity" />
-        <activity android:name="com.stickermaker.app.ui.SlideActivity" />
-        <activity android:name="com.stickermaker.app.ui.UploadActivity"></activity>
-        <activity android:name="com.stickermaker.app.ui.EditorActivity"></activity>
+        <activity android:name="com.unitecker.app.ui.InfosActivity" />
+        <activity android:name="com.unitecker.app.ui.SlideActivity" />
+        <activity android:name="com.unitecker.app.ui.UploadActivity"></activity>
+        <activity android:name="com.unitecker.app.ui.EditorActivity"></activity>
 
     </application>
 

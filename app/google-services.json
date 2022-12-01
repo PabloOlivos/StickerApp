@@ -1,62 +1,41 @@
 {
   "project_info": {
-    "project_number": "564571134691",
-    "project_id": "coderog-89f97",
-    "storage_bucket": "coderog-89f97.appspot.com"
+    "project_number": "1034281353641",
+    "project_id": "unitecker-app",
+    "storage_bucket": "unitecker-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:564571134691:android:bf421dcc5fb3b56cad83d6",
-        "android_client_info": {
-          "package_name": "com.coderog.nftguide"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "564571134691-maaqn69u57t40h3cjd7ts5bu3hbdjt5e.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA8lFwS7s6CUTSPsGr66NneP84SjDRr1wI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "564571134691-maaqn69u57t40h3cjd7ts5bu3hbdjt5e.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:564571134691:android:030d032fee89eb97ad83d6",
+        "mobilesdk_app_id": "1:1034281353641:android:4e226089da86d52837c4b8",
         "android_client_info": {
           "package_name": "com.stickermaker.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "564571134691-maaqn69u57t40h3cjd7ts5bu3hbdjt5e.apps.googleusercontent.com",
+          "client_id": "1034281353641-upuk41s0dffnvu5nfamr5soo7o17rtut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stickermaker.app",
+            "certificate_hash": "a39c0599e8baf60500e9b11def2fb9744d15907c"
+          }
+        },
+        {
+          "client_id": "1034281353641-87ncj1glp626mvog599ue3vr6un66dda.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA8lFwS7s6CUTSPsGr66NneP84SjDRr1wI"
+          "current_key": "AIzaSyD76ngxryngbYyU_AdgXYdFpwBbWmlHVsY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "564571134691-maaqn69u57t40h3cjd7ts5bu3hbdjt5e.apps.googleusercontent.com",
+              "client_id": "1034281353641-87ncj1glp626mvog599ue3vr6un66dda.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

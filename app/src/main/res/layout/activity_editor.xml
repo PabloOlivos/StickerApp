@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.stickermaker.app.ui.DrawView
+            <com.unitecker.app.ui.DrawView
                 android:id="@+id/drawView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
@@ -93,48 +93,51 @@
         </FrameLayout>
 
 
-
         <LinearLayout
-            android:elevation="10dp"
-            android:layout_alignParentBottom="true"
             android:id="@+id/controllers"
-            android:background="#ffffff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:orientation="horizontal"
             android:padding="5dp"
-            android:weightSum="4"
-            android:orientation="horizontal">
+            android:weightSum="4">
+
             <RelativeLayout
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="60dp">
-                    <Button
-                        android:id="@+id/zoom_button"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:background="@drawable/magnifier_selector"
-                        />
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zoom_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/magnifier_selector" />
             </RelativeLayout>
+
             <RelativeLayout
 
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="60dp">
-            <Button
-                android:id="@+id/auto_clear_button"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/magic_selector"
-                android:padding="5dip" />
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/auto_clear_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/magic_selector"
+                    android:padding="5dip" />
             </RelativeLayout>
+
             <RelativeLayout
 
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="60dp">
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/manual_clear_button"
@@ -143,18 +146,20 @@
                     android:background="@drawable/pencil_selector"
                     android:padding="10dp" />
             </RelativeLayout>
+
             <RelativeLayout
 
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="60dp">
-            <Button
-                android:backgroundTint="@color/colorAccent"
-                android:id="@+id/done"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/ic_check" />
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/done"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_check"
+                    android:backgroundTint="@color/colorAccent" />
             </RelativeLayout>
 
         </LinearLayout>
@@ -179,8 +184,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Eraser size:"
                 android:fontFamily="@font/google_sans"
+                android:text="Tamaño del borrador:"
                 android:textColor="#000" />
             <SeekBar
                 android:layout_toRightOf="@+id/textView"

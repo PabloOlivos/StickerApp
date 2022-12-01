@@ -4,7 +4,7 @@
     <string name="facebook_app_id">2169750233343295</string>
     <string name="fb_login_protocol_scheme">fb2169750233343295</string>
 
-
+    <string name="web_client_id">1034281353641-87ncj1glp626mvog599ue3vr6un66dda.apps.googleusercontent.com</string>
 
     <string name="panel_url">stickers.virmana.com</string>
 
@@ -24,118 +24,119 @@
 
 
     <string name="title_activity_home">HomeActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-    <string name="version_label">Current version</string>
-    <string name="title_notification">Enable push notifiction</string>
-    <string name="label_notification">Receive push notification</string>
-    <string name="clear_cache">Clear Cache</string>
-    <string name="label_cache">Clear locally cached images. Currently : </string>
-    <string name="progress_login">Work in progress</string>
-    <string name="message_sended">Message has been sent successfully</string>
-    <string name="error_short_value">Your field is too short</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="version_label">Versión actual</string>
+    <string name="title_notification">Habilitar notificación push</string>
+    <string name="label_notification">Recibir notificación push</string>
+    <string name="clear_cache">Limpiar Cache</string>
+    <string name="label_cache">Limpiar el cache local. Actualmente : </string>
+    <string name="progress_login">Cargando....</string>
+    <string name="message_sended">El Mensaje fue enviado exitosamente</string>
+    <string name="error_short_value">El campo es demasiado corto</string>
     <string name="hint_email">E-mail</string>
-    <string name="hint_name">Full name</string>
-    <string name="hint_message">Your message</string>
-    <string name="send_support">Send Message</string>
-    <string name="error_mail_valide">Please enter a valid E-mail</string>
+    <string name="hint_name">Nombre Completo</string>
+    <string name="hint_message">Tu Mensaje</string>
+    <string name="send_support">Enviar Mensaje</string>
+    <string name="error_mail_valide">Porfavor ingresa un E-mail Valido</string>
 
-    <string name="hint_facebook">Facebook url</string>
-    <string name="hint_twitter">Twitter url</string>
-    <string name="hint_instragram">Instagram Url</string>
-    <string name="save">Save</string>
-    <string name="invalide_url">Invalide Url</string>
-    <string name="loading_user_data">Loading user data</string>
+
+    <string name="hint_facebook">Facebook URL</string>
+    <string name="hint_twitter">Twitter URL</string>
+    <string name="hint_instragram">Instagram URL</string>
+    <string name="save">Guardar</string>
+    <string name="invalide_url">Url Invalida</string>
+    <string name="loading_user_data">Cargando datos de Usuario</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="try_again">Try Again</string>
-    <string name="error_server">Check your internet connexion ...</string>
-    <string name="please_login">Login to your account</string>
+    <string name="hello_blank_fragment">Hola Fragmento en blanco</string>
+    <string name="try_again">Intentalo nuevamente</string>
+    <string name="error_server">Revisa tu conexion a internet ...</string>
+    <string name="please_login">Inicia Sesión con tu cuenta</string>
 
-    <string name="skip">Skip</string>
-    <string name="rate_our_app">Rate Our App</string>
-    <string name="rate_our_app_message">If you love our application ,please take a moment to rate it .</string>
-    <string name="rate_now">Rate Now</string>
-    <string name="later">LATER</string>
-    <string name="no_again">Don’t ask again</string>
-    <string name="cancel">CANCEL</string>
+    <string name="skip">Saltar</string>
+    <string name="rate_our_app">Calfica nuestra app</string>
+    <string name="rate_our_app_message">Si te gusta nuestra aplicacion, porfavor tomate un momento para calificarla</string>
+    <string name="rate_now">Calificala ahora</string>
+    <string name="later">DESPUES</string>
+    <string name="no_again">NO ME PREGUNTES DE NUEVO</string>
+    <string name="cancel">CANCELAR</string>
 
-    <string name="dialog_text_no_ads_title">Turn Off ads</string>
-    <string name="dialog_text_no_premium_wallpapers_title">Premium Content</string>
-    <string name="dialog_text_no_premium_wallpapers_description">Get unlimited Stickerss</string>
-    <string name="dialog_text_no_ads_description">Use App more free without ads</string>
-    <string name="description_subsribte">With our pack. You can enjoy an ad-free experiance . and focus on the  essential!</string>
+    <string name="dialog_text_no_ads_title">QUITAR LOS ANUNCIOS</string>
+    <string name="dialog_text_no_premium_wallpapers_title">Contenido PREMIUM</string>
+    <string name="dialog_text_no_premium_wallpapers_description">Obten Stickerss INLIMITADOS</string>
+    <string name="dialog_text_no_ads_description">USAR LA APLICACION GRATIS CON ANUNCIOS</string>
+    <string name="description_subsribte">Con nuestro paquete. Puedes disfrutar de una experiencia sin publicidad. ¡Y concéntrate en lo esencial!</string>
 
-    <string name="title_home">Home</string>
-    <string name="my_profile">My profile</string>
-    <string name="login">Login / Register</string>
-    <string name="Logout">Logout</string>
-    <string name="share_this_app">Share this App</string>
-    <string name="action_rate">Rate this App</string>
-    <string name="contact_us">Contact us</string>
-    <string name="policy_privacy">Policy privacy</string>
-    <string name="exit">Exit</string>
+    <string name="title_home">Menú Principal</string>
+    <string name="my_profile">Mi perfil</string>
+    <string name="login">Iniciar sesión / Registrarse</string>
+    <string name="Logout">Cerrar sesión</string>
+    <string name="share_this_app">Comparte esta aplicacion</string>
+    <string name="action_rate">Califica la app</string>
+    <string name="contact_us">Contáctanos</string>
+    <string name="policy_privacy">Politica de privacidad</string>
+    <string name="exit">Salir</string>
 
-    <string name="account_disabled">Sorry your account has been locked</string>
-    <string name="login_gg_text">Login with google</string>
-    <string name="message_logout">You are successfully logout</string>
-    <string name="operation_progress">Operation in progress</string>
+    <string name="account_disabled">Lo sentimos, tu cuenta ha sido bloqueada</string>
+    <string name="login_gg_text">Iniciar sesion con google</string>
+    <string name="message_logout">Ha cerrado sesión correctamente</string>
+    <string name="operation_progress">Operacion en progreso</string>
 
-    <string name="loading">Loading</string>
-    <string name="edit_my_profile">Edit My profile</string>
-    <string name="download_pack_from">Click here to download this stickers</string>
-    <string name="info_pack">Infos pack</string>
-    <string name="pack_publisher">Pack publisher</string>
-    <string name="publisher_email">Publisher E-mail</string>
-    <string name="publisher_website">Publisher Website</string>
-    <string name="license_agreement">License agreement</string>
-    <string name="update_now">Update Now</string>
+    <string name="loading">Cargando</string>
+    <string name="edit_my_profile">Editar mi perfil</string>
+    <string name="download_pack_from">Click aqui para descargar el sticker</string>
+    <string name="info_pack">Informacion de los paquetes</string>
+    <string name="pack_publisher">Editor de paquetes</string>
+    <string name="publisher_email">Correo electrónico del publicador</string>
+    <string name="publisher_website">Sitio web del editor</string>
+    <string name="license_agreement">Acuerdo de licencia</string>
+    <string name="update_now">Actualizar ahora</string>
 
+    <string name="title_slide_1">Bienvenido a UNITECKER</string>
+    <string name="description_slide_1">Gracias por descargar la aplicación de STIKCERS,disfruta con esta increíble aplicación Andoid con características geniales.</string>
 
-    <string name="title_slide_1">Welcome to Stickers App</string>
-    <string name="description_slide_1">Thank you for download Stickers App ,Enjoy with this Amazing Andoid app with cool features .</string>
+    <string name="title_slide_2">Todo organizado aqui</string>
+    <string name="description_slide_2">Puede encontrar cualquier contenido fácilmente mediante el uso de categorías, título, etiquetas.</string>
 
-    <string name="title_slide_2">Everything organised here</string>
-    <string name="description_slide_2">You can find any content easily by using categories , title , tags .</string>
+    <string name="title_slide_3">Sé creativo</string>
+    <string name="description_slide_3">Regístrese ahora y comparta su idea creativa con muchos usuarios y sea uno de nuestra comunidad.</string>
 
-    <string name="title_slide_3">Be Creative </string>
-    <string name="description_slide_3">Register now and share you creative idea with many users and be one of our community .</string>
+    <string name="title_slide_4">Descargar y compartir</string>
+    <string name="description_slide_4">Descarga cualquier paquete de STICKERS y úsalo en tu aplicación de whatsapp, y compártelo con tus amigos </string>
 
-    <string name="title_slide_4">Download and share</string>
-    <string name="description_slide_4">Dwonload Any Stickers Pack and use it on your whatsapp app , and share it with your frients  </string>
+    <string name="title_slide_5">Favoritos</string>
+    <string name="description_slide_5">Cree su lista de favoritos y guarde cualquier contenido para verlo más tarde . </string>
 
-    <string name="title_slide_5">Favorites</string>
-    <string name="description_slide_5">Create your favorite list and save any content to view it later . </string>
+    <string name="title_slide_6">Califica los Stickers</string>
+    <string name="description_slide_6">Explore la mejor colección de Stickers y dé su calificación...</string>
 
-    <string name="title_slide_6">Rate Stickers</string>
-    <string name="description_slide_6">Browse best Stickers collection and give your rating ...</string>
+    <string name="title_slide_8">Sé Premium, toma tu libertad</string>
+    <string name="description_slide_8">Suscríbase por un pequeño precio y tome su libertad eliminando todos los anuncios. y descarga el contenido premium</string>
+    <string name="hint_pack_name">Nombre del paquete</string>
+    <string name="hint_publisher">Autor</string>
+    <string name="crop_as_circle">Recortar imagen \n como circulo</string>
+    <string name="crop_as_rec">Recortar imagen \n como rectángulo</string>
+    <string name="no_crop">Editor de imágenes \n &amp; Recortar</string>
+    <string name="pack_upload_success">El paquete se cargó correctamente</string>
+    <string name="create_pack">Crea tu paquete</string>
+    <string name="upload_pack">Subir ahora</string>
+    <string name="hint_pack_email">Correo electrónico del editor</string>
+    <string name="hint_pack_website">Sitio web</string>
+    <string name="hint_privacy">Política de privacidad</string>
+    <string name="hint_license">Acuerdo de licencia</string>
+    <string name="add_to_whatsapp">Añadir a Whatsapp</string>
+    <string name="name_short">El nombre del paquete es muy corto.</string>
+    <string name="publisher_short">El nombre del editor es muy corto</string>
+    <string name="tray_image_required">Seleccione el icono del paquete</string>
+    <string name="sticker_number_required">Debe seleccionar más de 3 STICKERS</string>
+    <string name="sticker_number_required_min">Debe seleccionar menos de 30 stickers</string>
 
-    <string name="title_slide_8">Be Premium,Take your freedom</string>
-    <string name="description_slide_8">Subscribe with a small price , and take your freedom by remove all ads . and download the premuim content</string>
-    <string name="hint_pack_name">Pack name</string>
-    <string name="hint_publisher">Publisher</string>
-    <string name="crop_as_circle">Crop Image as \n Cricle</string>
-    <string name="crop_as_rec">Crop image as \n Rectangle</string>
-    <string name="no_crop">Image Editor \n &amp; Croping</string>
-    <string name="pack_upload_success">Pack has been successfully Uploaded</string>
-    <string name="create_pack">Create your pack</string>
-    <string name="upload_pack">Upload Now</string>
-    <string name="hint_pack_email">Publisher E-mail</string>
-    <string name="hint_pack_website">Website</string>
-    <string name="hint_privacy">Privacy policy</string>
-    <string name="hint_license">License agreement</string>
-    <string name="add_to_whatsapp">Add to Whatsapp</string>
-    <string name="name_short">The pack name very short .</string>
-    <string name="publisher_short">The publisher name very short</string>
-    <string name="tray_image_required">Please select the pack Icon</string>
-    <string name="sticker_number_required">You should select more then 3 sticers</string>
-    <string name="sticker_number_required_min">You should select less then 30 sticers</string>
-
-    <string name="image_chooser_message">Choose an image to cut</string>
+    <string name="image_chooser_message">Elija una imagen para cortar</string>
 
     <string name="no_images">no found the image</string>
     <string name="images">%d images</string>
@@ -152,42 +153,42 @@
 
     <string name="materialcolorpicker__app_name">Android Material Color Picker Dialog</string>
     <string name="materialcolorpicker__descLib">Material Color Picker Dialog</string>
-    <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
+    <string name="materialcolorpicker__errHex">Formato de código hexadecimal incorrecto</string>
     <string name="materialcolorpicker__inputColor">Color:</string>
-    <string name="materialcolorpicker__btnSelectColor">Select</string>
-    <string name="saving_image">save...</string>
-    <string name="input_hint">input text ...</string>
+    <string name="materialcolorpicker__btnSelectColor">Seleccionar</string>
+    <string name="saving_image">Guardando...</string>
+    <string name="input_hint">Colocando texto ...</string>
 
-    <string name="no_choose">please choose a image for edit</string>
+    <string name="no_choose">Por favor elige una imagen para editar</string>
     <string name="auto_newline">AutoNewline</string>
     <string name="save_error">Save error!</string>
-    <string name="handing">loading...</string>
+    <string name="handing">cargando...</string>
 
     <string-array name="filters">
-        <item>origin</item>
-        <item>soft</item>
-        <item>black</item>
-        <item>classic</item>
-        <item>gorgeous</item>
+        <item>origen</item>
+        <item>suave</item>
+        <item>negro</item>
+        <item>clásico</item>
+        <item>precioso</item>
         <item>retro</item>
         <item>grace</item>
-        <item>film</item>
-        <item>memory</item>
+        <item>película</item>
+        <item>memoria</item>
         <item>yogurt</item>
         <item>fleeting</item>
-        <item>shine</item>
-        <item>mosaic</item>
+        <item>brillar</item>
+        <item>mosaico</item>
     </string-array>
 
-    <string name="more">More</string>
-    <string name="exit_without_save">The edited image is not saved. Do you want to exit? </string>
-    <string name="confirm">confirm</string>
+    <string name="more">más</string>
+    <string name="exit_without_save">La imagen editada no se guardará. ¿Quieres salir? </string>
+    <string name="confirm">confirmar</string>
 
-    <string name="beauty">beauty</string>
-    <string name="smooth">smooth</string>
-    <string name="white_skin">white skin</string>
+    <string name="beauty">belleza</string>
+    <string name="smooth">suave</string>
+    <string name="white_skin">piel blanca</string>
 
     <!-- update 3.1 -->
-    <string name="accept_privacy_policy_error">You should accept the privacy policy before login</string>
+    <string name="accept_privacy_policy_error">Debe aceptar la política de privacidad antes de iniciar sesión</string>
 
 </resources>

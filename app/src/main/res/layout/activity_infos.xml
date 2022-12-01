@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.stickermaker.app.ui.SettingsActivity">
+    tools:context="com.unitecker.app.ui.SettingsActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         app:elevation="2dp"
@@ -60,7 +60,7 @@
                     <ImageView
                         android:layout_marginRight="10dp"
                         android:padding="5dp"
-                        android:tint="@color/primary_text_light"
+                        android:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/ic_supervisor_account"
                         android:layout_width="40dp"
                         android:layout_height="40dp" />
@@ -96,7 +96,7 @@
                     <ImageView
                         android:layout_marginRight="10dp"
                         android:padding="5dp"
-                        android:tint="@color/primary_text_light"
+                        android:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/ic_email"
                         android:layout_width="40dp"
                         android:layout_height="40dp" />
@@ -132,7 +132,7 @@
                     <ImageView
                         android:layout_marginRight="10dp"
                         android:padding="5dp"
-                        android:tint="@color/primary_text_light"
+                        android:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/ic_public"
                         android:layout_width="40dp"
                         android:layout_height="40dp" />
@@ -168,7 +168,7 @@
                     <ImageView
                         android:layout_marginRight="10dp"
                         android:padding="5dp"
-                        android:tint="@color/primary_text_light"
+                        android:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/ic_lock"
                         android:layout_width="40dp"
                         android:layout_height="40dp" />
@@ -204,7 +204,7 @@
                     <ImageView
                         android:layout_marginRight="10dp"
                         android:padding="5dp"
-                        android:tint="@color/primary_text_light"
+                        android:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/ic_assignment"
                         android:layout_width="40dp"
                         android:layout_height="40dp" />

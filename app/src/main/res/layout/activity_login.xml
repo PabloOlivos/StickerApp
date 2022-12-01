@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.stickermaker.app.ui.LoginActivity">
+    tools:context="com.unitecker.app.ui.LoginActivity">
     <LinearLayout
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -147,10 +147,11 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <!--FACEBOOK ARRIBA-->
                 <com.facebook.login.widget.LoginButton
                     android:enabled="false"
-
-                    android:visibility="visible"
+                    android:visibility="gone"
                     facebook:com_facebook_login_text="Login with facebook"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
@@ -165,6 +166,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp" />
+
                 <RelativeLayout
                     android:alpha="0.7"
 
@@ -183,7 +185,10 @@
                         android:gravity="center"
                         android:background="@drawable/bg_google_btn"
                         android:layout_width="match_parent"
+
                         android:layout_height="match_parent">
+
+
                         <ImageView
                             android:layout_marginLeft="10dp"
                             android:layout_centerVertical="true"
@@ -192,15 +197,16 @@
                             app:srcCompat="@drawable/ic_google_login"
                             android:layout_width="20dp"
                             android:layout_height="20dp" />
+
                         <TextView
-                            android:layout_marginLeft="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
-                            android:textColor="@color/white"
-                            android:text="Ingresar con Google"
-                            android:fontFamily="@font/google_sans"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp" />
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/google_sans"
+                            android:gravity="center"
+                            android:text="Ingresar con Google"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -223,14 +229,15 @@
                         android:background="@drawable/bg_phone_btn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
+
                         <ImageView
-                            android:tint="@color/white"
-                            android:layout_marginLeft="10dp"
-                            android:layout_centerVertical="true"
-                            android:padding="0dp"
-                            app:srcCompat="@drawable/ic_phone_msg"
                             android:layout_width="20dp"
-                            android:layout_height="20dp" />
+                            android:layout_height="20dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:padding="0dp"
+                            android:tint="@color/white"
+                            app:srcCompat="@drawable/ic_phone_msg" />
                         <TextView
                             android:layout_marginLeft="40dp"
                             android:gravity="center"
@@ -493,7 +500,7 @@
                     android:id="@+id/text_view_login_activity_privacy"
                     android:layout_marginLeft="3dp"
                     android:textColor="#2C6CBF"
-                    android:text="Términos y condiciones de la aplicación "
+                    android:text="Términos y condiciones de la app "
                     android:fontFamily="@font/google_sans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>

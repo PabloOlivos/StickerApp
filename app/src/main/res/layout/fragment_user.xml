@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.stickermaker.app.ui.fragmenet.PopularFragment">
+    tools:context="com.unitecker.app.ui.fragmenet.PopularFragment">
     <RelativeLayout
         android:id="@+id/relative_layout_popular_f"
         android:layout_width="match_parent"
@@ -24,6 +24,7 @@
                     android:layout_height="match_parent">
                     <include layout="@layout/error_layout" />
                 </LinearLayout>
+
                 <androidx.recyclerview.widget.RecyclerView
                     android:visibility="gone"
                     android:id="@+id/recycler_view_list"
