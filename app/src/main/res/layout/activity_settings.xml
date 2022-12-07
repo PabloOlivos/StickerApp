@@ -254,16 +254,16 @@
 
                     <TextView
                         android:id="@+id/text_view_version"
-                        android:textSize="14dp"
-                        android:padding="2dp"
-                        android:textAlignment="center"
-                        android:text="V 1.2"
-                        android:fontFamily="@font/google_sans"
-                        android:textStyle="bold"
-                        android:gravity="center"
                         android:layout_width="60dp"
                         android:layout_height="70dp"
-                        android:layout_alignParentRight="true" />
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/google_sans"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="V 1.2"
+                        android:textAlignment="center"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
