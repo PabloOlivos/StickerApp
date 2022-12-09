@@ -18,4 +18,4 @@ Por ello, el proyecto tiene la intención de crear una aplicación de stickers u
 El proyecto tiene la intención de facilitar al usuario la creación, modificación y búsqueda de los diversos paquetes de stickers de una manera más intuitiva y amigable a partir de las herramientas implementadas en la aplicación. 
 
 <h2> Lenjuajes de programación <img src="https://github.com/raghavk16/raghavk16/blob/master/coderman.gif?raw=true" width="50"></h2>
-El entorno de programación será Android Studio utilizando como lenguaje principal Java, además trabajaremos con el lenguaje Python trabajando en conjunto con las API’s que mediapipe y OpenCV nos ofrecen.
+El entorno de programación será Android Studio utilizando como lenguaje principal Java.
